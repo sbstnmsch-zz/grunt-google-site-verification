@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": false
+  },
+
+  "globals": {
+    "module": 1
+  },
+
+  "rules": {
+    "quotes": [2, "single"],
+    "eqeqeq": 2,
+    "strict": 2,
+    "no-underscore-dangle": 2,
+    "no-console": 2
+  }
+}
