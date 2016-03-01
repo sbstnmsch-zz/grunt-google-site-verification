@@ -54,7 +54,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
   grunt.registerTask('test',
-    ['clean', 'eslint', 'google-site-verification', 'nodeunit', 'clean']);
+    ['clean', 'eslint', 'google-site-verification', 'nodeunit']);
 
   grunt.registerTask('default', ['test']);
 };
