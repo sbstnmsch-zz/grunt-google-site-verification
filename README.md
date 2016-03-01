@@ -77,5 +77,6 @@ Add unit tests for any new or changed functionality. Lint and test your code
 using [Grunt](http://gruntjs.com/).
 
 ## Release History
+* 2016/03/02 - v0.1.0 - Bump to 0.1.0 semver as everything is working as expected
 * 2016/03/01 - v0.0.2 - Cleanup, dependency updates + nicer logging
 * 2016/03/01 - v0.0.1 - Basic functionality
