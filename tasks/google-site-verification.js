@@ -18,16 +18,16 @@ module.exports = function(grunt) {
       path = require('path');
 
     if (!this.files.length || !this.files[0].dest) {
-      grunt.log.writeln('No destination path defined.');
+      grunt.log.writeln('No destination path defined.'.red);
     } else if (!code) {
-      grunt.log.writeln('No code defined in config nor environment.');
+      grunt.log.writeln('No code defined in config nor environment.'.red);
     } else {
       var
         filename = 'google' + code + '.html',
         dest = path.join(this.files[0].dest , filename);
 
       grunt.file.write(dest, 'google-site-verification: ' + filename);
-      grunt.log.writeln(('File "' + filename + '" created.').cyan);
+      grunt.log.writeln('🍺  Verification file ' + filename.cyan + ' created.');
     }
   });
 };

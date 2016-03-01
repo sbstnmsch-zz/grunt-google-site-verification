@@ -1,7 +1,7 @@
 {
   "name": "grunt-google-site-verification",
   "description": "Generate Google site verifications on the fly.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/sbstnmsch/grunt-google-site-verification",
   "author": {
     "name": "Sebastian Misch"
@@ -29,6 +29,8 @@
   },
   "keywords": [
     "gruntplugin",
-    "google-site-verification"
+    "google-site-verification",
+    "google",
+    "webmaster-tools"
   ]
 }

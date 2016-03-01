@@ -2,8 +2,14 @@
 
 > Generate Google site verifications on the fly.
 
+[![Build Status](https://travis-ci.org/sbstnmsch/grunt-google-site-verification.svg?branch=master)](https://travis-ci.org/sbstnmsch/grunt-google-site-verification) ♦
+[![npm version](https://badge.fury.io/js/grunt-google-site-verification.svg)](http://badge.fury.io/js/grunt-google-site-verification)
+
+[![NPM](https://nodei.co/npm/grunt-google-site-verification.png)](https://nodei.co/npm/grunt-google-site-verification/)
+
+
 ## Getting Started
-This google-site-verification requires Grunt `~0.4.5`
+This plugin requires Grunt `~0.4.5`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out
 the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains
@@ -71,4 +77,5 @@ Add unit tests for any new or changed functionality. Lint and test your code
 using [Grunt](http://gruntjs.com/).
 
 ## Release History
+* 2016/03/01 - v0.0.2 - Cleanup, dependency updates + nicer logging
 * 2016/03/01 - v0.0.1 - Basic functionality
