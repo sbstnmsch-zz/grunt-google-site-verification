@@ -1,5 +1,7 @@
 # grunt-google-site-verification
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sbstnmsch/grunt-google-site-verification.svg)](https://greenkeeper.io/)
+
 > Generate Google site verifications on the fly.
 
 [![Build Status](https://travis-ci.org/sbstnmsch/grunt-google-site-verification.svg?branch=master)](https://travis-ci.org/sbstnmsch/grunt-google-site-verification) ♦
